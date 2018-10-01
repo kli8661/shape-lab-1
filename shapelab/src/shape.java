@@ -14,4 +14,15 @@ public abstract class shape {
     {
         return "I am a " + type + ".";
     }
+
+    public class ACirc extends Shape
+    {
+        private int Rad;
+
+        public ACirc(int side)
+        {
+            super("Acirc");
+            this.radius = radius;
+        }
+    }
 }
